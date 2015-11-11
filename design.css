@@ -12,13 +12,17 @@ body, h1, h2, h3, p, ul, li
   list-style: none;
 }
 
+body
+{
+  background: rgb(181, 92, 0);
+}
+
 #wrap
 {
   width: 960px;
-  margin-top: 30px;
+  margin-left: auto;
   margin-right: auto;
-  margin-left: 50px;
-  background-color: #fff;
+  background-color: rgb(251, 208, 112);
 }
 
 #header
@@ -26,9 +30,9 @@ body, h1, h2, h3, p, ul, li
   width: 720px;
   height: 238px;
   border: 1px solid #000;
-  float: left;
-  margin-bottom: 30px;
   background-image: url("source/images/title.JPG");
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #header h1
@@ -43,25 +47,33 @@ body, h1, h2, h3, p, ul, li
 
 #nav
 {
-  height: 30px;
-  margin-bottom: 20px;
-  float: left;
-  margin-left: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  height: 50px;
+  width: 720px;
+  border-top: 1px inset rgb(22, 242, 157);
+  border-left: 1px inset rgb(22, 242, 157);
+  border-bottom: 1px inset rgb(22, 242, 157);
 }
 
 #nav ul li
 {
+  float: left;
   font-size: 12px;
-  line-height: 30px;
-  width: 120px;
+  line-height: 50px;
+  width: 143px;
   text-align: center;
-  border: 1px inset rgb(7, 186, 130);
-  margin-bottom: 20px;
+  border-right: 1px inset rgb(7, 186, 130);
 }
 
 #nav li
 {
-  padding-right: 5px;
+}
+
+#nav a
+{
+  display: block;
 }
 
 #nav .open
